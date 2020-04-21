@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+  <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+  <meta content="utf-8" http-equiv="encoding">
+	<title style="color: red">web game</title>
+  <link rel="stylesheet"  type="text/css" href="css/saik.css">
+
+ <h1>NUMBER GAME</h1>
+
+ <div><h1>timer</h1><h2 id="time">0</h2> <button onclick="highscore()">highscores</button></div>
+ <h2>highscore</h2><h2 id="high"></h2>
+</head>
+<body style="background-color: orange" >
+  <h2>Click on number according to ascending order</h2>
+  <h2>game finishes when last number 40 is clicked</h2>
+  <table class="table">
+    <tr>
+      <td><button class="button" onclick="clicked(this.id)"id="1">0</button></td> 
+      <td><button class="button" onclick="clicked(this.id)"id="2">0</button></td>
+      <td><button class="button" onclick="clicked(this.id)"id="3">0</button></td>
+      <td><button class="button" onclick="clicked(this.id)"id="4">0</button></td>
+      <td><button class="button" onclick="clicked(this.id)"id="5">0</button></td> 
+    </tr>
+    <tr> 
+      <td><button class="button" onclick="clicked(this.id)"id="6">0</button></td>
+      <td><button class="button" onclick="clicked(this.id)"id="7">0</button></td>
+      <td><button class="button" onclick="clicked(this.id)"id="8">0</button></td>
+      <td><button class="button" onclick="clicked(this.id)"id="9">0</button></td>
+      <td><button class="button" onclick="clicked(this.id)"id="10">0</button></td> 
+    </tr>
+    <tr>
+      <td><button class="button" onclick="clicked(this.id)"id="11">0</button></td> 
+      <td><button class="button" onclick="clicked(this.id)"id="12">0</button></td> 
+      <td><button class="button" onclick="clicked(this.id)"id="13">0</button></td> 
+      <td><button class="button" onclick="clicked(this.id)"id="14">0</button></td> 
+      <td><button class="button" onclick="clicked(this.id)"id="15">0</button></td> 
+    </tr>
+    <tr>  
+      <td><button class="button" onclick="clicked(this.id)"id="16">0</button></td> 
+      <td><button class="button" onclick="clicked(this.id)"id="17">0</button></td> 
+      <td><button class="button" onclick="clicked(this.id)"id="18">0</button></td> 
+      <td><button class="button" onclick="clicked(this.id)"id="19">0</button></td>
+      <td><button class="button" onclick="clicked(this.id)"id="20">0</button></td>
+    </tr> 
+  </table>
+  <script src="js/saik.js"></script>
+</body>
+</html>
